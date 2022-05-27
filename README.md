@@ -31,7 +31,7 @@ I used a powershell <a href="https://github.com/joshmadakor1/Sentinel-Lab/blob/m
 <br />
 <br />
 Run the script to see the failed logins grabbed from the Security Events. I failed 3 logins with a vfailtest user to test the script:  <br/>
-<img src="https://imgur.com/L6OBaiE.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
+<img src="https://imgur.com/kJqXdgl.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
 <br />
 <br />
 The script automatically created a failed_rdp log because I didn't have one already:  <br/>
@@ -39,7 +39,7 @@ The script automatically created a failed_rdp log because I didn't have one alre
 <br />
 <br />
 Add a custom log to the Log Analytics Workspace in the Azure Portal. This sample log will help tune the raw data extraction later. Add the path to the failed_rdp log after adding this sample log:  <br/>
-<img src="https://imgur.com/C4RlSKZ.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
+<img src="https://imgur.com/guqZe69.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
 <br />
 <br />
 Run a query with the failed logins file path created in the last step:  <br/>
