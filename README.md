@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-My goal was to learn how to take raw data from the Event Viewer in my VM and create a visual representation of that information so that it is easier to view the brute force attacks occuring on my machine.
+My goal was to learn how to take raw data from the Event Viewer in my VM and create a visual representation of that information. The main purpose is to make it easier to view the brute force attacks occuring on my machine.
 <br />
 
 
