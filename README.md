@@ -46,6 +46,7 @@ Add a custom log to the Log Analytics Workspace in the Azure Portal. Add the pat
 Run a query with the failed logins file path created in the last step:  <br/>
 <img src="https://imgur.com/eH2b9gO.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
 <br />
+<br />
 Extract fields from the raw data (latitude, longitude, country, etc.). Tune the extraction if necessary, and then save: <br/>
 <img src="https://imgur.com/SzNyVqZ.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
 <br />
@@ -53,9 +54,11 @@ Extract fields from the raw data (latitude, longitude, country, etc.). Tune the 
 Create a workbook in Azure Sentinel. Add a query with the source host and edit the map settings:  <br/>
 <img src="https://imgur.com/PLnDIHk.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
 <br />
+<br />
 Edit the map settings:  <br/>
 <img src="https://imgur.com/DuBaKlG.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
 <br /> 
+<br />
 Apply the map settings and verify that the locations are accurate:  <br/>
 <img src="https://imgur.com/ioZqrqv.png" height="80%" width="80%" alt="Microsoft Sentinel SIEM Lab"/>
 <br /> 
